@@ -12,7 +12,8 @@ provider "aws" {
 }
 
 # RESOURCES
-resource "aws_s3_bucket" "bucket" {
-  bucket = "miahorg-${var.environment}"
-  acl    = "private"
-}
+# resource "aws_s3_bucket" "bucket" {
+#   bucket = "miahorg-${var.environment}"
+#   acl    = "private"
+# }
+
